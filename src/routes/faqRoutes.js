@@ -4,10 +4,10 @@ import { getAllFAQs, createFAQ, updateFAQ, deleteFAQ } from '../controllers/faqC
 const router = express.Router();
 
 // Get all FAQs
-router.get('/', getAllFAQs);
+router.get('/faqs', getAllFAQs);
 
 // Create a new FAQ
-router.post('/', createFAQ);
+router.post('/faqs', createFAQ);
 
 // Update an FAQ
 router.put('/:id', updateFAQ);
