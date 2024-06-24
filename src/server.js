@@ -6,7 +6,7 @@ import faqRoutes from './routes/faqRoutes.js'; // Import the FAQ routes
 
 // app config
 const app = express()
-const port = 3000;
+const port = 6000;
 
 //middleware
 app.use(express.json())
